@@ -1,0 +1,190 @@
+html{font-size: 12px;font-family:  ProximaNova,Arial,Sans-serif;}
+#wrap{width: 100%;margin: 0 auto;}
+a{text-decoration: none;}
+ul{list-style:none;}
+.clearfix:before,.clearfix:after{display:block;content:"";}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.button{display: inline-block;}
+@media screen and (min-width: 320px) { /*当屏幕尺寸大于320px时，应用下面的CSS样式*/
+	.main{width: 84%;text-align:center;margin: 0 auto;}
+	header{/*position: fixed;top:0;*/height: 6rem;/*background-image: url(../images/header-bg_02.jpg);background-repeat: repeat-x;-webkit-background-size: contain;
+	background-size: contain;*/width: 100%;}
+	.logo{display: none;}
+	h1{text-indent: 200%;overflow: hidden;}
+	header .header_main{display: none;}
+	/*section{margin-top: 6rem;}*/
+	.banner{background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/hero-hi.jpg);background-repeat: no-repeat;width: 100%;-webkit-background-size: cover;
+	background-size: cover;padding-top: 3.5rem;}
+	.banner_top{border-bottom: 1px solid #161524;padding-bottom: 1rem;}
+	.banner h2{color: #fff;font-size: 3.5rem;font-weight: 100;}
+	.banner p{color: #b1b2bf;line-height: 2rem;font-size: 1.5rem;padding:1.5rem 0;}
+	.banner_bottom{border-top: 1px solid #42415b;padding: 3.3rem 0;}
+	.banner_bottom  a:last-of-type{display: none;}
+	.banner_bottom .button{line-height: 6rem;font-size: 2rem;padding: 0 4rem;border-top: 1px solid #fbbab5;border-radius: 3px;background-image: url(../images/banner-a-bg_09.jpg);background-repeat: repeat-x;}
+
+	.banner a{color: #fff;}
+	.muster{background-color: #edf0f8;}
+	.muster figure:first-of-type{padding-top: 4rem;}
+	.muster figure:last-of-type{padding-bottom: 4rem;}
+	figure{padding: 2rem 0;}
+	figure h4{font-size: 1.7rem;font-weight: 100;padding: 1.2rem;color: #43464c;}
+	figure p{font-size: 1.26rem;line-height: 2rem;color: #8e97a9;}
+	aside figure p{height: 16rem;}
+	aside figure .main{padding: 2rem 0;width: 68.421%;}
+	figure .main p{color: #fff;}
+	aside figure:nth-child(1){background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/aside_bg_18.jpg);-webkit-background-size: cover;
+	background-size: cover;}
+	aside figure:nth-child(2){background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/aside_bg_17.jpg);-webkit-background-size: cover;
+	background-size: cover;}
+	aside figure:nth-child(3){background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/aside_bg_19.jpg);-webkit-background-size: cover;
+	background-size: cover;}
+	.inner .main{text-align: left;padding: 5.8333rem 0;}
+	.inner h3{font-size: 2.5rem;font-weight: 100;color:#43464c;padding-bottom: 3rem;}
+	.inner p{line-height: 2rem;color: #71767f; font-size: 1.2rem;}
+	.inner a{display: block;color: #f5756c;line-height: 4rem;margin:0 auto;text-align: center;width: 9.25rem;font-size: 1.3rem;margin-top: 4rem;}
+	.inner a:last-of-type{margin-top:0;}
+	a.button{background-color: #f5756c;color: #fff;border-radius: 4px;}
+	aside.inner{background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/aside-inner_bg_03.jpg);-webkit-background-size: cover;
+	background-size: cover;}
+	aside.inner h3{color: #fff;}
+	aside.inner p{color: #c0c4d3;padding-bottom: 1.2rem;}
+	aside a.button{background-color: #4585d8;}
+	aside.inner p:nth-child(6){text-align: center;line-height: 1rem;padding-top: 2rem;}
+	aside.inner p:nth-child(6) span{display:block;width: 70%;margin: 0 auto;}
+	aside.inner p a{display: inline;color: #65a4f5;}
+	.list{background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/list_bg.jpg);-webkit-background-size: cover;
+	background-size: cover;}
+	.list li{text-align: center;font-size: 1.5rem;padding-bottom: 1.5rem;color: #fff;}
+	.list a.button{background-color: #232a42;}
+	.list .main a:last-of-type{color:#232a42;}
+	.about{background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/about.jpg);-webkit-background-size: cover;
+	background-size: cover;padding: 7rem 1rem;}
+	.about p{font-size: 1.3rem;color: #54585f;line-height: 2rem;}
+	.prices{color: #a5a9af;font-size: 1.2rem;padding: 4rem 0;}
+	.prices h3{font-size: 3rem;font-weight: 100;color: #43464c;}
+	.prices p{padding:1rem 0 2rem 0;line-height: 2rem;}
+	.prices p span{color: #f5756c;}
+	.prices strong{color: #43464c;}
+	.math{width: 100%;}
+	.prices a{display: inline-block;border: 1px solid #e8e8e8;/*margin: 0.5rem;width: 90%;*/margin: 0.5rem auto;}
+	.prices a img{width: 100%;height: auto;}
+	.market{background-image: url(http://obqlla9is.bkt.clouddn.com/responsive/market-bg.jpg);-webkit-background-size: cover;
+	background-size: cover;}
+	.market h3{color: #fff;text-align: center;}
+	.market p{color: #fff;text-align: center;font-size: 1.8rem;line-height: 2.6rem;}
+	.market .main a{color: #fff;text-align: center;font-size: 1.8rem;border-radius: 4px;border: 1px solid #fff;margin-top: 4rem;}
+	footer{padding-bottom: 5rem;line-height: 3.8rem;color: #a5a9af;}
+	footer .button{line-height: 6rem;font-size: 2rem;padding: 0 4rem;border-top: 1px solid #fbbab5;border-radius: 3px;background-image: url(../images/banner-a-bg_09.jpg);background-repeat: repeat-x;margin: 7rem auto;}
+	footer li {display: inline-block;padding: 0 1rem;}
+	footer a{color: #43464c;}
+}
+@media screen and (min-width: 500px) { /*当屏幕尺寸大于500px时，应用下面的CSS样式*/
+	header{position: fixed;top:0;background-color:rgba(245,246,247,0.93);}
+	header .header_main{display: block;}
+	header .logo{display: none;}
+	.header_main a{display: block;font-size: 1.5rem;line-height: 5.9rem;padding: 0 1.5rem;color: #43464c;}
+	.header_main a:first-of-type{float: left;border-bottom: 2px solid #f5756c;}
+	.header_main a:last-of-type{float: right;border-bottom: 2px solid #6585ed;}
+	section{margin-top: 6rem;}
+	.banner_bottom  a:last-of-type{display: block;float: left;font-size: 1.5rem;line-height: 6rem;padding-left: 10%;}
+	.banner_bottom .button{float: left;}
+	.inner a{float: left;}
+	.inner a:last-of-type{margin-top:4rem;margin-left: 2rem;}
+	figure.main {display: inline-block;width: 42%;padding-top: 4rem;}
+	aside.inner p:nth-child(6){width: 95%;float: left;padding: 0;line-height: 4rem;margin-top: 1rem;}
+	aside.inner p:nth-child(6) span{width: 8rem;display:block;float: left;}
+	aside.inner p:nth-child(6) a{margin: 0;font-size: 1.5rem;width: 7rem;}
+	.muster figure:nth-child(odd){margin-left:8%;}
+	.market a.shop{margin: 4rem auto;float: none;}
+
+ }
+@media screen and (min-width: 800px) { /*当屏幕尺寸大于800px时，应用下面的CSS样式*/
+	.banner_bottom .main{width: 50%;}
+	.inner .main{width: 75%;}
+	.list li{text-align: left;}
+	.footer_bottom p:first-of-type{float: left;}
+
+	.footer_bottom ul{float: left;padding-left: 13.6%;}
+	.footer_bottom p:last-of-type{float: right;}
+}
+@media screen and (min-width: 960px) { /*当屏幕尺寸大于960px时，应用下面的CSS样式*/
+	header{background-color: rgba(250,250,250,0.93);}
+	header .logo{display: block;float: left;padding-left: 43%;padding-top: 1.5rem;}
+	header .header_main{float: right;width: 18%;}
+	.header_main a:first-of-type{
+		transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+	-o-transition: background 0.3s;	}
+	.header_main a:first-of-type:hover{
+		background: #f5756c;color: #fff
+	}
+	.header_main a:last-of-type{float: left;margin-left: 2%;
+		transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+	-o-transition: background 0.3s;	}
+	.header_main a:last-of-type:hover{
+		background: #6585ed;color: #fff;
+	}
+	.banner h2{padding: 2rem 0;}
+	.banner_top{padding-bottom: 3rem;}
+	.banner_top p{padding: 2.5rem 0;}
+	.banner_bottom .main{width: 35%;}
+	.banner_bottom .button:hover{
+		animation: flash 2s infinite;
+		-webkit-animation:flash 2s infinite;
+		-moz-animation:flash 2s infinite;
+		-o-animation:flash 2s infinite;
+	}
+	@keyframes flash{
+		0%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+		50%{box-shadow: 0 0 30px rgba(245,117,108,0.7);}
+		100%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+	}
+	@-webkit-keyframes flash{
+		0%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+		50%{box-shadow: 0 0 30px rgba(245,117,108,0.7);}
+		100%{box-shadow: 0 0 0 rgba(97,90,97,0);}
+	}
+	@-moz-keyframes flash{
+		0%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+		50%{box-shadow: 0 0 30px rgba(245,117,108,0.7);}
+		100%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+	}
+	@-o-keyframes flash{
+		0%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+		50%{box-shadow: 0 0 30px rgba(245,117,108,0.7);}
+		100%{box-shadow: 0 0 0 rgba(245,117,108,0);}
+	}
+	aside figure{width: 33.3333%;float: left;}
+	.muster figure:nth-child(odd){margin-left:0;}
+	.muster figure{width: 22%;}
+	.muster figure:first-of-type{margin-left: 6%;}
+	figure h4{font-size: 1.55rem;}
+	aside.inner p:nth-child(6){width: 75%;float: left;padding-left:3%;line-height: 4rem;margin-top: 4rem;margin-right: 0;}
+	.inner .main p{width: 60%;float: left;margin-right: 35%;}
+	.inner a{
+		transition: background 1s;
+-moz-transition: background 1s;	/* Firefox 4 */
+-webkit-transition: background 1s;	/* Safari 和 Chrome */
+-o-transition: background 1s;
+	}
+	.inner a:nth-child(3):hover{
+		background: #4585d8;
+	}
+	aside a.button{
+		transition: background 1s;
+-moz-transition: background 1s;	/* Firefox 4 */
+-webkit-transition: background 1s;	/* Safari 和 Chrome */
+-o-transition: background 1s;
+	}
+	aside a.button:hover{
+		background: #f5756c;
+	}
+	.prices a{width: 32%;}
+	.about .main p{width: 55%;text-align: left;}
+	#wrap .market p{width: 100%;}
+	.footer_bottom ul{float: left;padding-left: 26.6%;}
+}
